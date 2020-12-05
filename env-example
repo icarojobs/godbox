@@ -96,7 +96,7 @@ LOCAL_LISTEN_ADDR=
 ###   TLD_SUFFIX=local
 ### Makes your project available under xxxx.local
 ###
-TLD_SUFFIX=loc
+TLD_SUFFIX=god
 
 
 ###
@@ -137,7 +137,7 @@ NEW_GID=1000
 ###
 ### Timezone for PHP Docker container (system and php.ini)
 ###
-TIMEZONE=UTC
+TIMEZONE=America/Sao_Paulo
 
 
 
@@ -172,7 +172,7 @@ DNS_CHECK_TIMEOUT=1
 ### This has nothing to do for SSL certificates for projects, it is just for the intranet
 ### itself.
 ###
-DEVILBOX_UI_SSL_CN=localhost,*.localhost,devilbox,*.devilbox,httpd
+DEVILBOX_UI_SSL_CN=localhost,*.localhost,devilbox,*.devilbox,httpd,godbox,*.godbox
 
 
 ###
@@ -202,7 +202,7 @@ DEVILBOX_UI_PROTECT=0
 ###
 ### The default username is 'devilbox'
 ###
-DEVILBOX_UI_PASSWORD=password
+DEVILBOX_UI_PASSWORD=secret
 
 
 ###
@@ -264,8 +264,8 @@ DEVILBOX_VENDOR_PHPPGADMIN_AUTOLOGIN=1
 #PHP_SERVER=7.1
 #PHP_SERVER=7.2
 #PHP_SERVER=7.3
-PHP_SERVER=7.4
-#PHP_SERVER=8.0
+#PHP_SERVER=7.4
+PHP_SERVER=8.0
 #PHP_SERVER=8.1
 
 
@@ -579,7 +579,7 @@ HTTPD_VHOST_SSL_TYPE=both
 ###
 ### When changing this value, restart the devilbox.
 ###
-HTTPD_DOCROOT_DIR=htdocs
+HTTPD_DOCROOT_DIR=public
 
 
 ###
@@ -635,7 +635,7 @@ HTTPD_NGINX_WORKER_CONNECTIONS=1024
 ### the MySQL root user password will not actually be changed and the Devilbox intranet
 ### won't be able to connect to the MySQL service.
 ###
-MYSQL_ROOT_PASSWORD=
+MYSQL_ROOT_PASSWORD=secret
 
 
 ###
@@ -663,7 +663,7 @@ PGSQL_ROOT_USER=postgres
 ### If you want to set a password, ensure to remove 'trust' from
 ### PGSQL_HOST_AUTH_METHOD below
 ###
-PGSQL_ROOT_PASSWORD=
+PGSQL_ROOT_PASSWORD=secret
 
 
 ###
