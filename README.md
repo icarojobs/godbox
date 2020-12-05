@@ -66,6 +66,8 @@ Each of them is also available in multiple different versions in order to reflec
 git clone https://github.com/icarojobs/godbox</pre></div>
 <div class="highlight highlight-source-shell"><pre># Create docker-compose environment file
 cd godbox
+mkdir jenkins
+mkdir dumps
 cp env-example .env</pre></div>
 <div class="highlight highlight-source-shell"><pre># Edit your configuration
 vim .env</pre></div>
