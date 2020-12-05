@@ -75,12 +75,12 @@ vim .env</pre></div>
 docker-compose up</pre></div>
    </td>
    <td>
-    1. Clone <code>https://github.com/icarojobs/godbox</code> to <code>C:\godbox</code> with <a href="https://git-scm.com/downloads">Git for Windows</a><br/><br/>
-    2. Copy <code>C:\godbox\env-example</code> to <code>C:\godbox\.env</code><br/><br/>
-    3. Edit <code>C:\godbox\.env</code><br/><br/>
+    1. Clone <code>https://github.com/icarojobs/godbox</code> to <code>C:\devilbox</code> with <a href="https://git-scm.com/downloads">Git for Windows</a><br/><br/>
+    2. Copy <code>C:\devilbox\env-example</code> to <code>C:\devilbox\.env</code><br/><br/>
+    3. Edit <code>C:\devilbox\.env</code><br/><br/>
     4. <a href="https://godbox.readthedocs.io/en/latest/howto/terminal/open-terminal-on-win.html">Open a terminal on Windows</a> and type:<br/><br/><br/>
     <pre># Start all container
-C:\godbox> docker-compose up</pre></div>
+C:\devilbox> docker-compose up</pre></div>
    </td>
   </tr>
  </tbody>
