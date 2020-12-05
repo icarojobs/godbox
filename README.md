@@ -63,9 +63,9 @@ Each of them is also available in multiple different versions in order to reflec
   <tr>
    <td>
 <div class="highlight highlight-source-shell"><pre># Get the Godbox
-git clone https://github.com/icarojobs/godbox</pre></div>
+git clone https://github.com/icarojobs/godbox devilbox</pre></div>
 <div class="highlight highlight-source-shell"><pre># Create docker-compose environment file
-cd godbox
+cd devilbox
 mkdir jenkins
 mkdir dumps
 cp env-example .env</pre></div>
